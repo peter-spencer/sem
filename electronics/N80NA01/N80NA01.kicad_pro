@@ -411,6 +411,30 @@
     [
       "2912507a-6ed7-45af-aacf-4f4739434a7e",
       "Root"
+    ],
+    [
+      "1dbc373b-d49f-4f6c-8eb7-cd13cfea4b16",
+      "Horizontal Probe Drive"
+    ],
+    [
+      "21253f5d-6a6b-44bd-a4fc-5f2b106bb246",
+      "Vertical Probe Drive"
+    ],
+    [
+      "fd8ee147-078b-4224-b518-43a15fc08f40",
+      "Image Shift X Drive"
+    ],
+    [
+      "9f352c8b-58cf-4e6a-873e-8a0a67939544",
+      "Image Shift Y Drive"
+    ],
+    [
+      "434acb6d-7357-44c7-a635-c6d38e7ea827",
+      "Horizontal CRT Drive"
+    ],
+    [
+      "2c3c6261-89f0-4f70-b7b4-7374a79779ce",
+      "Vertical CRT Drive"
     ]
   ],
   "text_variables": {}
