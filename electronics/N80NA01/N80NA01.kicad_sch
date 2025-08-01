@@ -4189,7 +4189,7 @@
 			)
 			(justify left)
 		)
-		(uuid "0f6a5278-b8ee-469d-adbf-f68171d5918d")
+		(uuid "0f6a5278-b8ee-469d-adbf-f68171d5918e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 303.5519 157.48 0)
 			(effects
@@ -4311,7 +4311,7 @@
 			)
 		)
 	)
-	(global_label "NF(V)"
+	(global_label "MAG_SWITCH(V)"
 		(shape output)
 		(at 71.12 80.01 180)
 		(fields_autoplaced yes)
@@ -4323,7 +4323,7 @@
 		)
 		(uuid "2876ad54-ec82-4f26-8aa4-3d08fd7ea705")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.9337 80.01 0)
+			(at 53.7414 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
