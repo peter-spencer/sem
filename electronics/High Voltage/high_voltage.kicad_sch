@@ -7023,9 +7023,9 @@
 		)
 		(uuid "8fb14a99-7892-415f-be04-2f906405b291")
 	)
-	(text "Oscillator"
+	(text "15.75 kHz Oscillator"
 		(exclude_from_sim no)
-		(at 192.024 42.672 0)
+		(at 188.214 38.608 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -23865,7 +23865,7 @@
 		(fields_autoplaced yes)
 		(uuid "68727e82-2fcb-4705-b180-de94d1e2ab61")
 		(property "Reference" "N80HC01_CP6"
-			(at 361.95 147.8279 0)
+			(at 361.95 146.5579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23874,7 +23874,7 @@
 			)
 		)
 		(property "Value" "EG HV VOLTAGE"
-			(at 361.95 150.3679 0)
+			(at 361.95 149.0979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23900,13 +23900,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 359.41 152.4 0)
+		(property "Description" "+60 VDC"
+			(at 361.95 151.6379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -26259,7 +26259,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b659257-9a71-40cd-9b4c-5d1e1b310f0c")
 		(property "Reference" "N80HC01_CP1"
-			(at 283.21 268.4779 0)
+			(at 283.21 267.2079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26267,8 +26267,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FILAMENT 8kHz"
-			(at 283.21 271.0179 0)
+		(property "Value" "FILAMENT"
+			(at 283.21 269.7479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26294,13 +26294,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 280.67 273.05 0)
+		(property "Description" "8kHz"
+			(at 283.21 272.2879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -26967,7 +26967,7 @@
 		(fields_autoplaced yes)
 		(uuid "935bd36e-67ed-4f96-b9e6-df9245965a02")
 		(property "Reference" "N80HC01_CP4"
-			(at 264.16 64.0079 0)
+			(at 264.16 62.7379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26976,7 +26976,7 @@
 			)
 		)
 		(property "Value" "OSC"
-			(at 264.16 66.5479 0)
+			(at 264.16 65.2779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27002,13 +27002,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 261.62 68.58 0)
+		(property "Description" "15.75 kHz square wave"
+			(at 264.16 67.8179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -35052,12 +35052,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 306.07 68.58 0)
+		(property "Description" ""
+			(at 308.61 67.8179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
