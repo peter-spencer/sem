@@ -1328,211 +1328,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:2SD1047"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 6.35 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2SD1047"
-				(at 6.35 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-3PB-3_Vertical"
-				(at 6.35 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/resource/en/datasheet/2sd1047.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "12A Ic, 140V Vce, Silicon Power NPN Transistors, TO-3PB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Power NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?3PB*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2SD1047_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2SD1047_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_BJT:MJE13003"
 			(pin_names
 				(offset 0)
@@ -1710,6 +1505,211 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_NPN_Darlington_CBE"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 4.572 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NPN_Darlington_CBE"
+				(at 4.572 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN Darlington transistor, collector/base/emitter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NPN_Darlington_CBE_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 2.54 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NPN_Darlington_CBE_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2204,8 +2204,8 @@
 		(uuid 2c9b438b-7c2c-4e6d-bb1b-3af0f0381ecb)
 	)
 	(rectangle
-		(start 243.84 101.6)
-		(end 259.08 121.92)
+		(start 207.01 101.6)
+		(end 259.08 153.67)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2246,7 +2246,13 @@
 		(uuid "1842814e-af6b-42eb-abb7-4342081a7785")
 	)
 	(junction
-		(at 224.79 142.24)
+		(at 190.5 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "185c1938-b8b7-4f16-ad50-4f3f96226995")
+	)
+	(junction
+		(at 233.68 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21bdea4b-5656-4bf5-ae15-42e52434cf2a")
@@ -2258,10 +2264,16 @@
 		(uuid "288213c2-a60d-45fb-9c64-5fc57fd9cd41")
 	)
 	(junction
-		(at 224.79 134.62)
+		(at 215.9 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f59f5f7-1b97-4984-a54b-b0afc5735a2c")
+		(uuid "31c502fa-6078-4a84-b584-82cd38d04e6b")
+	)
+	(junction
+		(at 228.6 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a9a8289-12ae-4bce-95d5-67ac6c32df07")
 	)
 	(junction
 		(at 80.01 105.41)
@@ -2274,6 +2286,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "530ff570-3b03-4335-86a1-fdda3fd4df35")
+	)
+	(junction
+		(at 198.12 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66d787d0-31cf-4d35-978a-e6b87444bbf3")
+	)
+	(junction
+		(at 207.01 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cf3be63-3053-4abf-a539-9cb5436321a6")
 	)
 	(junction
 		(at 147.32 80.01)
@@ -2332,6 +2356,16 @@
 			(type default)
 		)
 		(uuid "0050b5c7-eaa1-4d8c-b0e8-735a01e50fa9")
+	)
+	(wire
+		(pts
+			(xy 198.12 68.58) (xy 215.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02160d55-0c73-4c9d-a804-74271e88509f")
 	)
 	(wire
 		(pts
@@ -2425,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 102.87) (xy 224.79 97.79)
+			(xy 233.68 97.79) (xy 233.68 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2475,16 +2509,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 142.24) (xy 224.79 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "458d8514-f834-480c-9486-5f5032e82dc2")
-	)
-	(wire
-		(pts
 			(xy 147.32 55.88) (xy 147.32 58.42)
 		)
 		(stroke
@@ -2495,33 +2519,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 129.54) (xy 203.2 119.38)
+			(xy 212.09 128.27) (xy 212.09 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a288541-f28e-4007-8811-bf9167060b9c")
-	)
-	(wire
-		(pts
-			(xy 233.68 110.49) (xy 233.68 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aeeec2e-76fb-48a7-9840-e8548902b595")
-	)
-	(wire
-		(pts
-			(xy 233.68 97.79) (xy 233.68 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cc12d67-6d09-4743-94b8-85e5d5f8852e")
 	)
 	(wire
 		(pts
@@ -2545,6 +2549,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 85.09) (xy 198.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f945db-c6e3-481d-aea4-9a94f0038c79")
+	)
+	(wire
+		(pts
 			(xy 101.6 114.3) (xy 101.6 100.33)
 		)
 		(stroke
@@ -2552,6 +2566,16 @@
 			(type default)
 		)
 		(uuid "54fbb198-4d6b-4587-bc8f-e98bd283a81b")
+	)
+	(wire
+		(pts
+			(xy 190.5 85.09) (xy 190.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5738b2bf-3061-49f1-961f-da77005016f9")
 	)
 	(wire
 		(pts
@@ -2565,6 +2589,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 90.17) (xy 207.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a09b998-f792-40c0-97f4-a0207b503071")
+	)
+	(wire
+		(pts
 			(xy 101.6 43.18) (xy 101.6 69.85)
 		)
 		(stroke
@@ -2575,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 119.38) (xy 219.71 120.65)
+			(xy 228.6 120.65) (xy 228.6 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2605,13 +2639,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 68.58) (xy 215.9 68.58)
+			(xy 198.12 85.09) (xy 190.5 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63de774d-895d-45d3-a6bc-f42e9320b8a9")
+		(uuid "63ef04e8-ad56-4730-9433-115f05e68a2a")
 	)
 	(wire
 		(pts
@@ -2625,13 +2659,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 85.09) (xy 208.28 85.09)
+			(xy 233.68 110.49) (xy 233.68 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e474e1b-2f67-450e-96b0-8010a1770894")
+		(uuid "6fab6cdc-c422-44d6-a99a-30049e08a9b3")
 	)
 	(wire
 		(pts
@@ -2685,7 +2719,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 134.62) (xy 224.79 142.24)
+			(xy 233.68 132.08) (xy 233.68 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2715,7 +2749,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 130.81) (xy 219.71 134.62)
+			(xy 228.6 132.08) (xy 228.6 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2745,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 139.7) (xy 203.2 142.24)
+			(xy 212.09 138.43) (xy 212.09 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2785,33 +2819,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 97.79) (xy 233.68 97.79)
+			(xy 207.01 90.17) (xy 207.01 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bd01716-c6be-4967-ad12-efb41e0e3643")
-	)
-	(wire
-		(pts
-			(xy 215.9 90.17) (xy 226.06 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c8d585c-34ba-4d5e-baf2-4c15bde3e30b")
-	)
-	(wire
-		(pts
-			(xy 224.79 130.81) (xy 224.79 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d321e66-b018-4668-9fc7-b6b1fb0d1dfe")
+		(uuid "9956c707-da4c-4109-b788-328991fb5fdc")
 	)
 	(wire
 		(pts
@@ -2875,6 +2889,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 85.09) (xy 207.01 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed9bf8d-e6ae-41ae-9a90-55f908ef36f6")
+	)
+	(wire
+		(pts
 			(xy 215.9 68.58) (xy 233.68 68.58)
 		)
 		(stroke
@@ -2925,7 +2949,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 142.24) (xy 224.79 142.24)
+			(xy 226.06 90.17) (xy 215.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26b8b28-5026-44e8-94da-7b16128818a1")
+	)
+	(wire
+		(pts
+			(xy 212.09 140.97) (xy 228.6 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2945,23 +2979,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 134.62) (xy 224.79 134.62)
+			(xy 228.6 140.97) (xy 233.68 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df0a78e9-24ee-4562-ac67-31b3d8110e8f")
-	)
-	(wire
-		(pts
-			(xy 224.79 110.49) (xy 224.79 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e50dbea9-75a0-4597-a872-4043fe9196df")
 	)
 	(wire
 		(pts
@@ -3015,7 +3039,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 142.24) (xy 224.79 146.05)
+			(xy 233.68 140.97) (xy 233.68 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3035,7 +3059,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 119.38) (xy 219.71 119.38)
+			(xy 212.09 120.65) (xy 228.6 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3267,10 +3291,10 @@
 		(lib_id "Transistor_BJT:MJE13003")
 		(at 213.36 85.09 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0bf9e1bc-7eaf-468f-8e61-c2a7a7457d38")
 		(property "Reference" "Q3"
@@ -3282,7 +3306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KSC2383YTA"
+		(property "Value" "TTC004B"
 			(at 218.44 86.3599 0)
 			(effects
 				(font
@@ -3321,7 +3345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NPN"
+		(property "Sim.Device" "SUBCKT"
 			(at 213.36 85.09 0)
 			(effects
 				(font
@@ -3330,7 +3354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "KSC2383.lib"
+		(property "Sim.Library" "TTC004B.lib"
 			(at 213.36 85.09 0)
 			(effects
 				(font
@@ -3339,7 +3363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "KSC2383"
+		(property "Sim.Name" "TTC004B"
 			(at 213.36 85.09 0)
 			(effects
 				(font
@@ -3348,16 +3372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 213.36 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=C 3=E"
+		(property "Sim.Pins" "1=2 2=1 3=3"
 			(at 213.36 85.09 0)
 			(effects
 				(font
@@ -3518,7 +3533,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
-		(at 203.2 134.62 0)
+		(at 212.09 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3527,7 +3542,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b3b2e71-f26b-4f2f-bd2a-8be2330c046f")
 		(property "Reference" "V4"
-			(at 207.01 131.9501 0)
+			(at 215.9 130.6801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3551,7 @@
 			)
 		)
 		(property "Value" "${SIM.PARAMS}"
-			(at 207.01 134.4901 0)
+			(at 215.9 133.2201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,7 +3560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 134.62 0)
+			(at 212.09 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3569,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 203.2 134.62 0)
+			(at 212.09 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +3578,7 @@
 			)
 		)
 		(property "Description" "Voltage source, DC"
-			(at 203.2 134.62 0)
+			(at 212.09 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3587,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 203.2 134.62 0)
+			(at 212.09 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3596,7 @@
 			)
 		)
 		(property "Sim.Type" "PULSE"
-			(at 203.2 134.62 0)
+			(at 212.09 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3605,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 203.2 134.62 0)
+			(at 212.09 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,8 +3614,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "y1=-1 y2=1 td=0.2 tr=1m tf=1m tw=0.1"
-			(at 207.01 137.0301 0)
+		(property "Sim.Params" "y1=-1 y2=1 td=1.2 tr=1m tf=1m tw=0.2"
+			(at 215.9 135.7601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,76 +3633,6 @@
 			(project "70V_regulated_supply"
 				(path "/0efd42dc-abc3-4d5e-bb1c-57ddd86332c7"
 					(reference "V4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 233.68 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "362038eb-5205-4712-8f69-e9cf07d5ec91")
-		(property "Reference" "C1"
-			(at 237.49 103.2509 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10a"
-			(at 237.49 105.7909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.6452 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V"
-			(at 237.49 108.3309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "ce3fb2b6-d37f-4e06-b731-af74a85846f6")
-		)
-		(pin "1"
-			(uuid "8d6d798f-6fad-49ed-a394-c6c5328bdd9f")
-		)
-		(instances
-			(project "70V_regulated_supply"
-				(path "/0efd42dc-abc3-4d5e-bb1c-57ddd86332c7"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4119,7 +4064,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 146.05 0)
+		(at 233.68 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4128,7 +4073,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ceea3d1-0ecb-443b-a637-6d8fb0176b26")
 		(property "Reference" "#PWR018"
-			(at 224.79 152.4 0)
+			(at 233.68 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4082,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 151.13 0)
+			(at 233.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 146.05 0)
+			(at 233.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 146.05 0)
+			(at 233.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4108,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 146.05 0)
+			(at 233.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,12 +4199,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SD1047")
+		(lib_id "Transistor_BJT:Q_NPN_Darlington_CBE")
 		(at 231.14 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cdf699b-85a1-4d11-91e5-0939f1d1e9a9")
@@ -4272,7 +4217,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2SC5198"
+		(property "Value" "MJ11016G"
 			(at 236.22 91.4399 0)
 			(effects
 				(font
@@ -4281,28 +4226,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 237.49 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 90.17 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-3PB-3_Vertical"
+			(at 236.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
 			(at 231.14 90.17 0)
 			(effects
 				(font
@@ -4311,7 +4244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NPN"
+		(property "Description" "NPN Darlington transistor, collector/base/emitter"
 			(at 231.14 90.17 0)
 			(effects
 				(font
@@ -4320,7 +4253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "2N2222A.mod"
+		(property "Sim.Device" "SUBCKT"
 			(at 231.14 90.17 0)
 			(effects
 				(font
@@ -4329,7 +4262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "Q2SC5198"
+		(property "Sim.Library" "MJ11016.LIB"
 			(at 231.14 90.17 0)
 			(effects
 				(font
@@ -4338,7 +4271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "GUMMELPOON"
+		(property "Sim.Name" "mj11016g"
 			(at 231.14 90.17 0)
 			(effects
 				(font
@@ -4347,7 +4280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=B 2=C 3=E"
+		(property "Sim.Pins" "1=1 2=2 3=3"
 			(at 231.14 90.17 0)
 			(effects
 				(font
@@ -4708,16 +4641,16 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:SWITCH")
-		(at 224.79 125.73 0)
+		(at 233.68 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "963a1718-11be-4a03-a1a3-c06e5d94364a")
 		(property "Reference" "S1"
-			(at 227.33 123.0629 0)
+			(at 236.22 124.3329 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4659,7 @@
 			)
 		)
 		(property "Value" "SWITCH"
-			(at 227.33 125.6029 0)
+			(at 236.22 126.8729 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 125.73 0)
+			(at 233.68 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4677,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Switches"
-			(at 224.79 109.22 0)
+			(at 233.68 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4686,7 @@
 			)
 		)
 		(property "Description" "Voltage controlled switch symbol for simulation only"
-			(at 224.79 125.73 0)
+			(at 233.68 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4695,7 @@
 			)
 		)
 		(property "Sim.Device" "SW"
-			(at 224.79 125.73 0)
+			(at 233.68 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +4704,7 @@
 			)
 		)
 		(property "Sim.Type" "V"
-			(at 224.79 125.73 0)
+			(at 233.68 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +4713,7 @@
 			)
 		)
 		(property "Sim.Params" "thr=0 ron=1"
-			(at 227.33 128.1429 0)
+			(at 236.22 129.4129 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +4722,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=no+ 2=no- 3=ctrl+ 4=ctrl-"
-			(at 224.79 111.76 0)
+			(at 233.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,16 +5093,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.79 106.68 0)
+		(at 233.68 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b626afb0-e306-411f-9bb7-d4515fcc0201")
-		(property "Reference" "R1"
-			(at 227.33 105.4099 0)
+		(property "Reference" "Rload2"
+			(at 236.22 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,8 +5110,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10"
-			(at 227.33 107.9499 0)
+		(property "Value" "35"
+			(at 236.22 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +5120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.012 106.68 90)
+			(at 231.902 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 106.68 0)
+			(at 233.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5138,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 106.68 0)
+			(at 233.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,7 +5155,7 @@
 		(instances
 			(project ""
 				(path "/0efd42dc-abc3-4d5e-bb1c-57ddd86332c7"
-					(reference "R1")
+					(reference "Rload2")
 					(unit 1)
 				)
 			)
@@ -5515,7 +5448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1035"
+		(property "Value" "1k"
 			(at 250.19 107.9499 0)
 			(effects
 				(font
@@ -6378,10 +6311,10 @@
 		(lib_id "Transistor_BJT:MJE13003")
 		(at 195.58 80.01 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f7f4a5c2-50e9-458b-a87f-2bdbd6aa55cb")
 		(property "Reference" "Q2"

@@ -21,28 +21,26 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(231, 138, 195)",
-          "signal": "I(Q2:e)",
-          "trace_type": 258
-        },
-        {
-          "color": "rgb(102, 194, 165)",
-          "signal": "I(Q3:e)",
-          "trace_type": 258
-        },
-        {
           "color": "rgb(141, 160, 203)",
           "signal": "I(Q4:e)",
           "trace_type": 258
         },
         {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(+70Vs)",
-          "trace_type": 257
+          "color": "rgb(255, 255, 51)",
+          "signal": "I(XQ3:1)*(V(+86V)-V(Net-_Q3-E_))+I(XQ3:2)*(V(Net-_Q2-E_)-V(Net-_Q3-E_))",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(166, 86, 40)",
+          "signal": "I(Q4:c)*(V(+86V)-V(+70Vs))+I(Q4:b)*(V(Net-_Q3-E_)-V(+70Vs))",
+          "trace_type": 258
         }
       ]
     }
   ],
-  "user_defined_signals": [],
+  "user_defined_signals": [
+    "I(XQ3:1)*(V(+86V)-V(Net-_Q3-E_))+I(XQ3:2)*(V(Net-_Q2-E_)-V(Net-_Q3-E_))",
+    "I(Q4:c)*(V(+86V)-V(+70Vs))+I(Q4:b)*(V(Net-_Q3-E_)-V(+70Vs))"
+  ],
   "version": 6
 }
