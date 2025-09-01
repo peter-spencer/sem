@@ -1,0 +1,50 @@
+*********************************************************************
+*  (C)  Copyright  TOSHIBA CORPORATION  2016
+*  Date                 :05/08/2016
+*  File Name            :TTC004B.lib
+*  Part Number          :TTC004B
+*  Parameter Ver.       :Ver.1
+*  Simulator            :PSpice
+*  Model Call Name      :TTC004B
+*  TNOM                 :25 degree
+*  Pin Assign           :1=Collector 2=Base 3=Emitter
+*********************************************************************
+.SUBCKT TTC004B 1 2 3
+Q1 1 2 3 3 TTC004B_BJT
+.MODEL TTC004B_BJT NPN(
++ LEVEL = 1
++ TNOM = 25
++ IS = 1.374e-013
++ BF = 137.2
++ NF = 1
++ VAF = 11.95
++ IKF = 0.5057
++ ISE = 8.098e-013
++ NE = 1.8
++ BR = 35.11
++ NR = 1
++ VAR = 1000
++ IKR = 10
++ ISC = 1.916e-011
++ NC = 1.5
++ NK = 0.55
++ RE = 0.115
++ RB = 0.885
++ RC = 0.0709
++ CJE = 5.78E-011
++ VJE = 0.75
++ MJE = 0.33
++ CJC = 2.89E-011
++ VJC = 0.75
++ MJC = 0.33
++ FC = 0.5
++ TF = 1.545E-009
++ XTF = 1
++ VTF = 1
++ ITF = 1
++ PTF = 0
++ TR = 0
++ EG = 1.11
++ XTB = 1.4
++ XTI = 6.467)
+.ENDS

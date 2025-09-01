@@ -1,0 +1,24 @@
+** Color TV Audio Output & Color TV Vertical Deflection Output
+** PNP Epitaxial Silicon Transistor
+** Product: 2SA1013
+** Package: TO-92L
+** Terminals: Emitter(1) Collector(2) Base(3)
+
+.MODEL 2SA1013 PNP (                                
++ IS     = 10f			   BF     = 94.4261         NF     = 1                  
++ BR     = 10              NR     = 1               ISE    = 1.396930e0e-0       
++ NE     = 959.74m         ISC    = 116.157p        NC     = 1.58002                
++ VAF    = 100             VAR    = 0               IKF    = 2.9665             
++ IKR    = 4.80565         RB     = 0               RBM    = 0              
++ IRB    = 0               RE     = 1               RC     = 627.348m               
++ CJE    = 2p              VJE    = 750m            MJE    = 500m          
++ FC     = 0.5             CJC    = 110.396p        VJC    = 705.978m          
++ MJC    = 469.86m         XCJC   = 1               TF     = 3.35121n    
++ XTB    = 0               EG     = 1.11            XTI    = 3 
++ AF     = 1               ITF    = 3.94107p        TR     = 10n
++ XTF    = 278.666m        VJS    = 750m            NS     = 1
++ ISS    = 0               NK     = 500m            PTF    = 0
++ CJS    = 0               TRE1   = 0               TRE2   = 0
++ TRB1   = 0               TRB2   = 0               TRM1   = 0
++ TRM2   = 0               TRC1   = 0               TRC2   = 0
++ KF     = 0 )

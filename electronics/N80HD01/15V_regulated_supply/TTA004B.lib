@@ -1,0 +1,46 @@
+*********************************************************************
+*  (C)  Copyright  TOSHIBA CORPORATION  2016
+*  Date                 :21/08/2016
+*  File Name            :TTA004B.lib
+*  Part Number          :TTA004B
+*  Parameter Ver.       :Ver.2
+*  Simulator            :PSpice
+*  Model Call Name      :TTA004B
+*  TNOM                 :25 degree
+*  Pin Assign           :1=Collector 2=Base 3=Emitter
+*********************************************************************
+.SUBCKT TTA004B 1 2 3
+Q1 1 2 3 3 TTA004B_BJT
+.MODEL TTA004B_BJT PNP(
++ LEVEL = 1
++ TNOM = 25
++ IS = 7.5e-014
++ BF = 190
++ IKF = 0.47
++ ISE = 5e-011
++ NE = 2.4
++ NK = 0.63
++ XTB = 1
++ XTI = 2
++ TRC1 = 0.003
++ NF = 1
++ VAF = 6.8
++ VAR = 50
++ BR = 6
++ IKR = 5
++ ISC = 1.0e-21
++ NR = 1.015
++ NC = 1
++ RB = 4
++ RC = 0.125
++ RE = 0.05
++ CJC = 4.09E-011
++ MJC = 0.33
++ VJC = 0.75
++ CJE = 1e-11
++ MJE = 0.33
++ VJE = 0.75
++ EG = 1.11
++ TR = 1E-009
++ TF = 1.59E-009)
+.ENDS
