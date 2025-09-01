@@ -6,10 +6,11 @@ This is a project to restore this old electron microscope and put it back to use
 
 So far, the vacuum system, electron column, and specimen chamber has been stripped-down, cleaned and re-assembled. The electronics have been tested and an image was achieved but the old components have suffered several failures.
 
-Currently the focus is to understand and repair the electronics, as well as documenting the whole system for anyone else restorting a similar ISI microscope.
+Currently the focus is to understand and repair the electronics, as well as documenting the whole system for anyone else restorting a similar ISI microscope. There is documentation in the Wiki.
 
 Hardware will be documented as needed during the refurb, currently there is:
 - Scanned user manual and troubleshooting
+- Wiki with digitised user manual (in progress)
 - Scanned original circuit schematics
 - A few digitised circuit schematics
 
