@@ -13,6 +13,4 @@ Hardware will be documented as needed during the refurb, currently there is:
 - Scanned original circuit schematics
 - A few digitised circuit schematics
 
-## Links
-
 A documentary video of this microscope being brought back to life after rescue from storage at the university where it was originally based: https://www.youtube.com/watch?v=1n_eVXKsbxA
