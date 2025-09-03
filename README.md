@@ -10,7 +10,7 @@ Currently the focus is to understand and repair the electronics, as well as docu
 
 Hardware will be documented as needed during the refurb, currently there is:
 - Scanned user manual and troubleshooting
-- Wiki with [digitised user manual](wiki/Original-Instruction-Manual)
+- Wiki with [digitised user manual](../../wiki/Original-Instruction-Manual)
 - Scanned original circuit schematics
 - A few digitised circuit schematics
 
