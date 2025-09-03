@@ -15,3 +15,13 @@ Hardware will be documented as needed during the refurb, currently there is:
 - A few digitised circuit schematics
 
 A documentary video of this microscope being brought back to life after rescue from storage at the university where it was originally based: https://www.youtube.com/watch?v=1n_eVXKsbxA
+
+## List of related ISI microscopes
+
+The data in this repository is relevant to the following models of ISI microscopes:
+
+- MSM-4
+- SMS-2 Models: Super-I, Super-II, Super-III
+- Super Mini SEM
+
+Other ISI microscopes seem to share features with these models and so this list is probably not complete.
