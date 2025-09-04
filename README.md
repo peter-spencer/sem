@@ -18,6 +18,8 @@ A documentary video of this microscope being brought back to life after rescue f
 
 ## List of related ISI microscopes
 
+There's a comprehensive archive of manuals and schematics for similar ISI microscopes [here in microwiki.org](https://microwiki.org/wiki/index.php/SEM_I-O).
+
 The data in this repository is relevant to the following models of ISI microscopes:
 
 - MSM-4
