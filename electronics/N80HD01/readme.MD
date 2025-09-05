@@ -14,6 +14,17 @@ This board provides regulated power supplies for the high-voltage drive circuits
 
 ## Issues, fixes and upgrades
 
+### Current status
+
+- L1 33uH has been removed some time in the past.
+- ZD11 RD6A removed (failed).
+- ZD4 RD6A removed (tested OK).
+- TR4, TR5, TR6 2SC484-Y removed (failed).
+- IC2 741 removed (not tested).
+
+- TR3 2SC484-X removed (failed).
+- R15, R16 10k removed (tested OK). Removed to test 70 Volt supply in isolation.
+
 ### +70 Volt power supply
 
 The +70 Volt power supply failed after the problems with the high-voltage (oil) unit and it was left outputting the ~90 Volts unregulated supply voltage.
